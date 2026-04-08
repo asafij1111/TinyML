@@ -18,7 +18,7 @@ int clearVal = 0;
 float ax, ay, az;
 int prox = 0;
 
-// ===== Thresholds (TUNE THESE IF NEEDED) =====
+// ===== Thresholds =====
 const int SOUND_THRESHOLD = 2000;
 const int LIGHT_THRESHOLD = 50;
 const float MOTION_THRESHOLD = 1;
