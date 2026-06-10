@@ -1,2 +1,31 @@
 *.png
 tinyml_env_setup_package/
+Lab5/
+
+# macOS / Python
+.DS_Store
+__pycache__/
+*.pyc
+
+# Node (slide-generation deps; reinstall with npm install)
+node_modules/
+# Office lock files
+~$*
+
+# Final project: large image datasets (regenerate from the Kaggle dataset link
+# plus prepare_data.py / prepare_arduino.py; see Final_Project README)
+Final_Project/house_plant_species/
+Final_Project/data_split/
+Final_Project/arduino_split/
+Final_Project/collected_images/
+Final_Project/collected_arduino/
+
+# Final project: 120 MB deck exceeds GitHub's 100 MB limit -> submit via Canvas.
+# The PDF export (PlantDetector_EE446.pdf) is kept in the repo instead.
+Final_Project/presentation/PlantDetector_EE446.pptx
+
+# Course lecture material (not project work)
+Final_Project/EE446-TinyML-Spring26-Lecture#4.pdf
+
+# Keep the results figures despite the global *.png rule above
+!Final_Project/results/*.png
